@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 
 RUN apt-get update -qy && apt-get install mutt offlineimap vim-nox abook elinks curl tmux cron zsh -y
 ADD .muttrc /
