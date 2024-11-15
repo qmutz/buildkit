@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 LABEL maintainer James Turnbull "james@example.com"
 ENV REFRESHED_AT 2014-06-01
 RUN apt-get update
