@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 LABEL maintainer Erik Hollensbe <erik@hollensbe.org>
 
 RUN apt-get update && apt-get install znc -y
